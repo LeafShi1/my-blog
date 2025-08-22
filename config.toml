@@ -1,5 +1,7 @@
 baseURL = "https://leafshi1.github.io/my-blog/"
 title = "我的 Hugo 博客"
+canonifyURLs = true
+relativeURLs = true
 
 [module]
   [[module.imports]]
