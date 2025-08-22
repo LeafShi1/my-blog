@@ -1,7 +1,40 @@
 baseURL = "https://leafshi1.github.io/my-blog/"
 title = "我的 Hugo 博客"
+defaultContentLanguage = "zh"
 canonifyURLs = true
 relativeURLs = true
+
+[params]
+  description = "欢迎来到我的博客，这是一个分享技术与生活的空间。"
+  background_color = "#f5f5f5"
+  text_color = "#333333"
+  logo = "https://leafshi1.github.io/my-blog/images/logo.png"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[menu]
+  [[menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "文章"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "关于我"
+    url = "/about/"
+    weight = 4
+
 
 [module]
   [[module.imports]]
