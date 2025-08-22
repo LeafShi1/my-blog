@@ -1,4 +1,4 @@
 baseURL = "https://LeafShi.github.io/my-hugo-blog/"
 languageCode = "en-us"
 title = "我的 Hugo 博客"
-theme = "ananke"
+theme = "hugo-theme-stack-master"
