@@ -1,11 +1,5 @@
 baseURL = "https://leafshi1.github.io/my-blog/"
 title = "我的 Hugo 博客"
 theme = "ananke"
-defaultContentLanguage = "en"
 languageCode = "en-us"
-
-[languages]
-  [languages.en]
-    languageName = "English"
-    weight = 1
-
+defaultContentLanguage = "en"
