@@ -1,7 +1,5 @@
-baseURL = "https://LeafShi.github.io/my-hugo-blog/"
+baseURL = "https://leafshi1.github.io/my-blog/"
 languageCode = "en-us"
 title = "我的 Hugo 博客"
+theme = "hugo-theme-stack-master"
 
-[module]
-  [[module.imports]]
-    path = "github.com/CaiJimmy/hugo-theme-stack"
