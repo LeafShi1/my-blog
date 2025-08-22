@@ -3,4 +3,6 @@ title = "我的 Hugo 博客"
 
 [module]
   [[module.imports]]
-    path = "github.com/theNewDynamic/gohugo-theme-ananke"
+    path = "github.com/theNewDynamic/gohugo-theme-ananke/v2"
+    version = "v2.6.0"
+
