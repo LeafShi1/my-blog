@@ -1,5 +1,6 @@
 baseURL = "https://leafshi1.github.io/my-blog/"
 title = "我的 Hugo 博客"
-theme = "ananke"
-languageCode = "en-us"
-defaultContentLanguage = "en"
+
+[module]
+  [[module.imports]]
+    path = "github.com/theNewDynamic/gohugo-theme-ananke"
